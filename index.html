@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <button onclick="infHome()">ADD A NEW TO_DO</button>
+    <h6><p>to delete unwanted task, please click on that task</p></h6>
+      <form id="form" class="hidden">
+        <h4>Add a new to_do:</h4>
+        <div>
+          <label for="title">Title</label>
+          <input type="text" name="title" placeholder="What do you want to do?" id="title" required/><br><br>
+        </div>
+      <div>
+        <label for="deadline">Deadline</label>
+        <input type="date" name="deadline" placeholder="Choose the date" id="deadline" required/><br><br>
+      </div>
+      <div>
+        <label for="stat">What's the status?</label>
+        <select id="stat" name="stat" required>
+          <option value="" disabled selected>Status</option>
+          <option value="not started">Not Started :(</option>
+          <option value="in progress">In Progress :|</option>
+          <option value="done">Done :)</option>
+        </select>
+      </div><br>
+      <div>
+        <button onclick="resetList()">Cancel All</button>
+        <button id="clAdd" type="button" onclick="clickAdd()">Add</button>
+      </div>
+    </form>
+    <div id="stored"></div>
+    <ul class="list"></ul>
+    <section class="foot">
+      <div id="NS">Not Started :(</div>
+      <div id="IP">In Progress :|</div>
+      <div id="D">Done :)</div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

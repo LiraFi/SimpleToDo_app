@@ -1,0 +1,74 @@
+* {
+    font-family: 'Corben', cursive;
+    font-size: large;
+}
+body {
+    padding: 0;
+    margin: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 0 10px 30px;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+    padding: 0;
+    border-left: 10px solid;
+    background-color: #EFEFEF;
+}
+.hidden {
+    display: none;
+    background-color: rgb(191, 199, 196);
+    padding: 15px;
+    border-width: 5px;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: rgb(191, 199, 196);
+}
+
+
+h6 {
+    font-style: italic;
+}
+
+.foot {
+    display: flex;
+    justify-content: left;
+}
+section #NS {
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    background-color: transparent;
+    padding: 6px ;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-left: 5px solid red;
+}
+
+section #IP {
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    background-color: transparent;
+    padding: 6px ;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-left: 5px solid yellow;
+}
+
+section #D {
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    background-color: transparent;
+    padding: 6px ;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-left: 5px solid green;
+}
