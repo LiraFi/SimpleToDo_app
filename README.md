@@ -13,4 +13,4 @@ Tasks should have: title, deadline, status
 * deploy your project to github page and provide link to your live server in README
 
 a link:
-https://lirafi.github.io/bof-javascript-todo-list/
+https://lirafi.github.io/SimpleToDo_app/
